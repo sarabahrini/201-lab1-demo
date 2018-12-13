@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About you</title>
+  </head>
+  <body>
+    <h1>Who Are You</h1>
+    <p>Q1: What is your name?</p>
+    <script>
+      //If I only had an alert('What is your name?'); I would only get an alert but to text field to type th answer
+      //Prompt by itself only provides a text field but assigning a variable to it let's us to store the answer 
+      //We used the stored answer in the next alert   
+      var name = prompt('What is your name?');
+      alert('Nice to meet you, ' + name + '!');
+      //console.log wont appear in the browser but once you hold command + option + j in the browser you can see the text in the console in case you need it 
+      console.log('Q was "What is your name?" A was ' + name);
+
+      var lastName = prompt('What is your Last Name?');
+      alert('So the famous ' + name + ' ' + lastName + ' is you.');
+      console.log('Q was "What is your Last Name?" answer was '+lastName);
+    </script>
+  </body>
+  
+</html>
